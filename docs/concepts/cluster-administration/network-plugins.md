@@ -56,7 +56,7 @@ The plugin requires a few things:
 
 The MTU should always be configured correctly to get the best networking performance.  Network plugins will usually try
 to infer a sensible MTU, but sometimes the logic will not result in an optimal MTU.  For example, if the
-Docker bridge or another interface has a small MTU, kubenet will currently select that MTU.  Or if you are
+docker bridge or another interface has a small MTU, kubenet will currently select that MTU.  Or if you are
 using IPSEC encapsulation, the MTU must be reduced, and this calculation is out-of-scope for
 most network plugins.
 
